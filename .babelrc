@@ -1,0 +1,29 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    "inline-react-svg",
+    [
+      "module-resolver",
+      {
+        "root": ".",
+        "alias": {
+          "~Assets": "./src/assets",
+          "~Components": "./src/components",
+          "~Contexts": "./src/contexts",
+          "~Fonts": "./src/fonts",
+          "~Hooks": "./src/hooks",
+          "~Models": "./src/models",
+          "~Providers": "./src/providers",
+          "~Routes": "./src/routes",
+          "~Services": "./src/services",
+          "~Screens": "./src/screens",
+          "~Store": "./src/store",
+          "~Test": "./src/__test__",
+          "~Theme": "./src/theme",
+          "~Types": "./src/types",
+          "~Utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}

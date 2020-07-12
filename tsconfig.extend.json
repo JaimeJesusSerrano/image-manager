@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "~Assets/*": ["assets/*"],
+      "~Components/*": ["components/*"],
+      "~Contexts/*": ["contexts/*"],
+      "~Fonts/*": ["fonts/*"],
+      "~Hooks/*": ["hooks/*"],
+      "~Models/*": ["models/*"],
+      "~Providers/*": ["providers/*"],
+      "~Routes": ["routes"],
+      "~Routes/*": ["routes/*"],
+      "~Services/*": ["services/*"],
+      "~Screens/*": ["screens/*"],
+      "~Store/*": ["store/*"],
+      "~Test/*": ["__test__/*"],
+      "~Theme": ["theme"],
+      "~Theme/*": ["theme/*"],
+      "~Types/*": ["types/*"],
+      "~Utils/*": ["utils/*"]
+    }
+  }
+}
