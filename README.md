@@ -4,7 +4,6 @@ In image manager project we can upload images, rotate their, and save rotate act
 
 ### Main technologies
 
-- Node v12.18.0
 - NPM v6.14.4
 - ReactJS v16.13.1
 - Create React APP
